@@ -1,0 +1,148 @@
+/* Ipads and Tablets - Portrait */
+@media screen and (max-width: 1023px) {
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: block;
+    height: 0;
+    margin-right: 20px;
+  }
+
+  [aria-expanded="true"] ~ ul li {
+    margin-top: 10px;
+  }
+
+  .hero-text { text-align: center; }
+  .hero-text h2 { font-size: var(--size-50); }
+  .hero-text p { font-size: var(--size-20); }
+  .hero-video-btn a { 
+    font-size: var(--size-16); 
+    padding: 15px 30px;
+  }
+
+  .container { 
+    min-height: 500px; 
+    max-width: 100%;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .bg-contrast.demo-container {
+    display: block;
+  }
+
+  .demo-text-wrapper { 
+    text-align: center; 
+    margin: 20px auto;
+  }
+
+  .demo-text-wrapper h2 { 
+    margin-top: var(--size-100); 
+    transform: translate(0%, 0%);
+    padding: 0;
+  }
+
+  .demo-text-wrapper a.btn-blue { margin: 20px 0; }
+
+  .demo-video-wrapper {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .components-card h3.component-text { font-size: 16px; }
+  .container.testimonial-text { text-align: center; }
+  
+  .pricing-container { 
+    display: block; 
+    margin: auto;
+  }
+
+  .start-now-card { 
+    margin: auto; 
+    text-align: center;
+  }
+
+  .products-offered { margin: auto; }
+
+  .hire-us-container { 
+    display: block;
+    padding-bottom: 10px;
+   }
+
+  .hire-us-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 700px;
+  }
+
+  .hire-us-form { 
+    margin: 30px auto; 
+    max-width: 700px;
+    padding-bottom: 30px;
+  }
+
+  .footer-content { margin: 0 20px; }
+  .disclaimer { padding-bottom: 20px; }
+}
+
+@media screen and (max-width: 767px) {
+  .card-container { display: block; }
+
+  .component-card-container { display: block; }
+  .components-line { display: none; }
+  .outer-circle { left: 80px; }
+
+  .component-text {
+    position: relative;
+    left: 50%;
+    top: 25px;
+  }
+
+  .banner-section {
+    max-width: 700px;
+    min-height: 300px;
+  }
+
+  .trusted-by ul {
+    display: block;
+    text-align: center;
+  }
+
+  .products-offered { display: block; }
+  .hire-us-text hr { margin: 50px auto; }
+
+  .hire-us-text { 
+    display: block; 
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .headshots { margin: 20px auto; }
+
+  .resources-container {
+    display: block;
+    text-align: center;
+  }
+
+  .resources-container h3 { margin-top: var(--size-20); }
+
+  .footer-content {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-content .socials { margin-top: var(--size-20); }
+}
